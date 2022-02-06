@@ -1,0 +1,23 @@
+a=int(input("Enter Nth Value at which You want to Print Fibonacci Series \n"));
+fibo1=0
+fibo2=1
+temp=0
+count=0
+if a<=0:
+    print("Enter Valid Nth Number\n");
+elif a==1:
+        print(fibo1)
+else:        
+    while(a>count):
+     
+        print(fibo1)
+        temp=fibo1+fibo2
+        fibo1=fibo2
+        fibo2=temp
+        count=count+1   
+        
+    
+    
+    
+     
+    
